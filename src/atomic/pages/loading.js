@@ -7,7 +7,7 @@ class Loading extends React.Component {
     super(props);
     this.reload = () => {
       this.load();
-    }
+    };
   }
 
   load() {
@@ -32,7 +32,6 @@ class Loading extends React.Component {
     if(this.props.feed.fetched === false || this.props.feed.feed.results.length < 1) {
       return  <h1> loading ... </h1>;
     }
-
   }
 }
 

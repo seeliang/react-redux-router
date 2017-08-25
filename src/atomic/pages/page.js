@@ -1,16 +1,11 @@
 import React from 'react';
 
 import UserLink from '../atoms/link';
-import Button from '../atoms/button';
-import Loading from './loading';
 
 class Page extends React.Component {
   displayName: 'Page';
   constructor(props) {
     super(props);
-    this.reload = () => {
-      this.load();
-    };
   }
 
   lists() {
